@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Your Way</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<ul>
+  <div class="logo">
+    <a><img width="300px" height="50px" src="parking.jpeg"></a>
+  </div>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="#home">HOME</a></li>
+  </ul><br>
+  <br>
+  <div class="Container">
+<form action="thanks.html" method="post">
+  <h2>Book Your Slot</h2> 
+  <div class="content">
+    <div class="input-box">
+      <label> Full Name: </label>         
+      <input type="text" placeholder="Enter Full Name" required> 
+    </div>
+    <div class="input-box">
+      <label> Contact Number: </label>         
+      <input type="tel" placeholder="Enter Contact Number"  required> 
+    </div>
+    <div class="input-box">
+      <label> Car Number: </label>         
+      <input type="tel" placeholder="Enter Car Number"  required> 
+    </div>
+    <div class="input-box">
+      <label for="Number:">Entry Gate Number:</label>
+      <select name="entry gate number" id="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+    </div>
+    <div class="input-box">
+      <label for="Number">Parking Hours:</label>
+  <select name="Parking Hours" id="time">
+    <option value="1hrs">1hrs</option>
+    <option value="2hrs">2hrs</option>
+    <option value="3hrs">3hrs</option>
+    <option value="4hrs">4hrs</option>
+  </select>
+ </div>
+    <div class="input-box">
+        <label for="Number">Payment Mode:</label>
+        <div onClick="window.location = 'https://pages.razorpay.com/pl_NACT5h5heoV7I5/view';">
+          <input type="radio" style="pointer-events:none;">UPI
+          <span class="checkmark"></span>
+          </div>   
+          <input type="radio" name="radio">Cash 
+          <span class="checkmark"></span>
+          <div class="button">
+            <input type="submit" value="SUBMIT">
+          </div> 
+        </div>
+        </div>
+      </form> 
+    </div>
+  </body>
+</html>

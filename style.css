@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  ul {
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    background-color:black;
+  }
+  .logo {
+    float: left;
+    margin-left: 28px;
+    height: 30px;
+  } @media(max-width: 768px) {
+      
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+  }
+  
+  li a:hover {
+    background-color: grey;
+  }
+  body{
+    background-image:url('cars.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+   .Container{
+    max-width:66%;
+    padding:40px;
+    height: 600px;;
+    margin:0px 90px;
+    border-radius: 10px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    overflow: hidden;
+    background:linear-gradient(rgb(255, 255, 255),grey);
+    box-shadow: 0 15px 20 px rgba(red, green, blue, alpha);
+}
+h2{
+    font-size:28px;
+    font-weight:bolder;
+    text-align: left;
+    color:black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+    
+    
+}
+.input-box{
+    display:block;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 50px;
+}
+.input-box input{
+    height:25px;
+    width:95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+select{
+    width: 440px;
+    height: 25px;
+    padding: 4px 35px 5px 5px;
+    font-size: 14px;
+}
+form .button{
+  height: 40px;
+  margin: 60px 50px
+}
+form .button input{
+  height: 100%;
+  width: 50%;
+  padding:10px;
+  position: relative;
+  right: 140px;
+  border-radius: 5px;
+  border:none;
+  color:black;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+form .button input:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+     
+  
+   
